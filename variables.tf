@@ -19,7 +19,7 @@ variable "permissions_list" {
     description = "AdminAccess"
     managed_policies = []
     name = "AdminAccess"
-    session_duration = "null"
+    session_duration = "600"
     sso_groups = []
   } ]
 }
