@@ -14,4 +14,12 @@ variable "permissions_list" {
     sso_groups       = list(string)
   }))
   description = "List of permission set properties"
+  default = [ {
+    aws_accounts = []
+    description = "AdminAccess"
+    managed_policies = []
+    name = "AdminAccess"
+    session_duration = "null"
+    sso_groups = []
+  } ]
 }

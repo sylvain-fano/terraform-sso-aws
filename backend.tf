@@ -4,7 +4,7 @@ terraform {
     organization = "fano"
 
     workspaces {
-      prefix = "ps-sso-"
+      name = "terraform-sso-aws"
     }
   }
 }
